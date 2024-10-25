@@ -7,6 +7,10 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/sleeper/.zshrc'
 
+# Editor 
+export VISUAL="nvim"
+export EDITOR="nvim"
+
 #alias
 alias pkginstall="sudo pacman -S"
 alias pkgupdate="sudo pacman -Syu"
